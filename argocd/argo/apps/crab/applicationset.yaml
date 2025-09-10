@@ -17,7 +17,7 @@ spec:
           - { svc: crabserver, env: test14, cluster: cmsweb-test14, targetRevision: master, repoURL: "https://gitlab.cern.ch/crab3/crab-k8s-overlays.git" }
           
           # ---------- preprod cluster ----------
-          - { svc: crabserver, env: preprod, cluster: cmsweb-preprod, targetRevision: master, repoURL: "https://gitlab.cern.ch/crab3/crab-k8s-overlays.git" }
+          # - { svc: crabserver, env: preprod, cluster: cmsweb-preprod, targetRevision: master, repoURL: "https://gitlab.cern.ch/crab3/crab-k8s-overlays.git" }
           
           # ---------- prod cluster ----------
           # - { svc: crabserver, env: prod, cluster: cmsweb-prod, targetRevision: migrate-to-argocd, repoURL: "https://github.com/sinonkt/CMSKubernetes.git" }
